@@ -5,9 +5,10 @@ def prime?(int)
    return TRUE
  elsif int % 2== 0 || int % 3 == 0
   return FALSE
- else
-   return TRUE
- end
+ 
+ i = 5
+ while i * i <= int
+  if int % i || 
     
 end
 
