@@ -10,7 +10,8 @@ def prime?(int)
  while i * i <= int
   if int % i || int % (i + 2) == 0
     return FALSE
-    
+  i += 1 
+ return TRUE
     
 end
 
