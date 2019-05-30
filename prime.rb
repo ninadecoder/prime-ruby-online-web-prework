@@ -8,7 +8,9 @@ def prime?(int)
  
  i = 5
  while i * i <= int
-  if int % i || 
+  if int % i || int % (i + 2) == 0
+    return FALSE
+    
     
 end
 
